@@ -1,0 +1,3026 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "confirm"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "proceed"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yep"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "indeed"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "ok"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right, thank you"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "correct"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great choice"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "sounds really good"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nah"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "never"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ofs",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ofs tech",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs tech"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "fuel",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "fuel"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "food"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "credit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "debit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cash",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "cash"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1.23",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1.23"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "123.4",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "123.4"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "google"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "meals & entertainment",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "meals & entertainment"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "travels",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "travels"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "46168",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "46168"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "confirm"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "proceed"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yep"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "indeed"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "ok"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right, thank you"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "correct"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great choice"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "sounds really good"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nah"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "never"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ofs",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ofs tech",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs tech"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "fuel",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "fuel"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "food"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "credit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "debit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cash",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "cash"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1.23",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1.23"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "123.4",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "123.4"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "google"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "meals & entertainment",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "meals & entertainment"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "travels",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "travels"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "46168",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "46168"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "confirm"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "proceed"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yep"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "indeed"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "ok"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right, thank you"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "correct"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great choice"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "sounds really good"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nah"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "never"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ofs",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ofs tech",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs tech"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "fuel",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "fuel"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "food"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "credit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "debit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cash",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "cash"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1.23",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1.23"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "123.4",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "123.4"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "google"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "meals & entertainment",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "meals & entertainment"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "travels",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "travels"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "46168",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "46168"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "confirm"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "proceed"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yep"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "indeed"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "ok"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right, thank you"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "correct"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great choice"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "sounds really good"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nah"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "never"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ofs",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ofs tech",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs tech"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "fuel",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "fuel"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "food"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "credit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "debit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cash",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "cash"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1.23",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1.23"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "123.4",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "123.4"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "google"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "meals & entertainment",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "meals & entertainment"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "travels",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "travels"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "46168",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "46168"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "confirm"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "proceed"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yep"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "indeed"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "ok"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right, thank you"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "correct"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great choice"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "sounds really good"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nah"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "never"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ofs",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ofs tech",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs tech"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "fuel",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "fuel"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "food"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "credit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "debit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cash",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "cash"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1.23",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1.23"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "123.4",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "123.4"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "google"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "meals & entertainment",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "meals & entertainment"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "travels",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "travels"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "46168",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "46168"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "confirm"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "proceed"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yep"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "indeed"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "ok"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right, thank you"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "correct"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great choice"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "sounds really good"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nah"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "never"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ofs",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ofs tech",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs tech"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "fuel",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "fuel"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "food"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "credit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "debit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cash",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "cash"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1.23",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1.23"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "123.4",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "123.4"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "google"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "meals & entertainment",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "meals & entertainment"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "travels",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "travels"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "46168",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "46168"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "confirm"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [],
+        "text": "proceed"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "dear sir"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yes"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yep"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "yeah"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "indeed"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "ok"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "right, thank you"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "correct"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "great choice"
+      },
+      {
+        "intent": "confirm_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "confirm",
+            "entity": "user_action"
+          }
+        ],
+        "text": "sounds really good"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "cancel"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nope"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "no"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "nah"
+      },
+      {
+        "intent": "cancel_operation",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "cancel",
+            "entity": "user_action"
+          }
+        ],
+        "text": "never"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ofs",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "ofs tech",
+            "entity": "company_name"
+          }
+        ],
+        "text": "ofs tech"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "fuel",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "fuel"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "food",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "food"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "credit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "credit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "debit card",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "debit card"
+      },
+      {
+        "intent": "choose_payment_mode",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cash",
+            "entity": "payment_mode"
+          }
+        ],
+        "text": "cash"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1234",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1234"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "1.23",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "1.23"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "123.4",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "123.4"
+      },
+      {
+        "intent": "choose_company",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "google"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "meals & entertainment",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "meals & entertainment"
+      },
+      {
+        "intent": "choose_expense_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "travels",
+            "entity": "expense_type"
+          }
+        ],
+        "text": "travels"
+      },
+      {
+        "intent": "enter_expense_amount",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "46168",
+            "entity": "expense_amount"
+          }
+        ],
+        "text": "46168"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "expense_amount",
+        "pattern": "[+-]?([0-9]*[.])?[0-9]+"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "ofs",
+        "synonyms": [
+          "Ofs",
+          "OFS"
+        ]
+      },
+      {
+        "value": "cancel",
+        "synonyms": [
+          "Cancel",
+          "no",
+          "nope"
+        ]
+      },
+      {
+        "value": "confirm",
+        "synonyms": [
+          "Confirm",
+          "Yes",
+          "yes"
+        ]
+      },
+      {
+        "value": "Credit Card",
+        "synonyms": [
+          "credit card",
+          "Credit card",
+          "credit Card"
+        ]
+      },
+      {
+        "value": "ofs tech",
+        "synonyms": [
+          "Ofs tech"
+        ]
+      }
+    ]
+  }
+}

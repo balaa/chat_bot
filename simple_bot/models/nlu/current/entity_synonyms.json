@@ -1,0 +1,18 @@
+{
+  "no": "cancel",
+  "nope": "cancel",
+  "yes": "confirm",
+  "credit card": "Credit Card",
+  "yep": "confirm",
+  "yeah": "confirm",
+  "indeed": "confirm",
+  "right": "confirm",
+  "ok": "confirm",
+  "great": "confirm",
+  "right, thank you": "confirm",
+  "correct": "confirm",
+  "great choice": "confirm",
+  "sounds really good": "confirm",
+  "nah": "cancel",
+  "never": "cancel"
+}

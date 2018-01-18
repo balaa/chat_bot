@@ -1,0 +1,101 @@
+slots:
+  initial:
+    type : list
+  company_name:
+    type: list
+  expense_type:
+    type: list
+  payment_mode:
+    type: list
+  expense_amount:
+    type: text
+  user_action:
+    type: text
+
+intents:
+ - initial_user_input
+ - confirm_operation
+ - cancel_operation
+ - affirm
+ - thankyou
+ - goodbye
+ - greet
+ - choose_company
+ - choose_expense_type
+ - choose_payment_mode
+ - enter_expense_amount
+
+entities:
+ - user_action
+ - company_name
+ - payment_mode
+ - expense_type
+ - expense_amount
+
+
+templates:
+  utter_greet:
+    - "hey there!"
+  utter_goodbye:
+    - "goodbye :("
+    - "Bye-bye"
+  utter_ask_helpmore:
+    - "any thing else pal"
+  utter_initial_user_input:
+    - text: "Do you want to claim your expense?!"
+      buttons:
+      - title: "Confirm"
+        payload: "confirm"
+      - title: "Cancel"
+        payload: "cancel"
+  utter_default:
+    - "default message"
+  utter_youarewelcome:
+    - "you're very welcome"
+
+  utter_choose_company:
+    - text: "Choose your company"
+      buttons:
+      - title: "xyz"
+        payload: "xyz"
+      - title: "xyz Tech"
+        payload: "xyz Tech"
+
+  utter_choose_expense_type:
+  - text: "Please choose the expense type!"
+    buttons:
+    - title: "Meals and Entertainment"
+      payload: "Meals and Entertainment"
+    - title: "Travels"
+      payload: "Travels"
+    - title: "Food"
+      payload: "Food"
+    - title: "Fuel"
+      payload: "Fuel"
+
+  utter_choose_payment_mode:
+  - text: "Please choose the expense mode!"
+    buttons:
+    - title: "Credit Card"
+      payload: "Credit Card"
+    - title: "Debit Card"
+      payload: "Debit Card"
+    - title: "Cash"
+      payload: "Cash"
+
+  utter_enter_expense_amount:
+    - "Please enter the expense amount"
+
+actions:
+  - utter_initial_user_input
+  - utter_greet
+  - utter_goodbye
+  - utter_youarewelcome
+  - utter_choose_company
+  - utter_choose_expense_type
+  - utter_choose_payment_mode
+  - utter_enter_expense_amount
+#  - run.GetCompany
+#  - run.GetExpenseType
+#  - run.getPaymentMode
+#  - run.GetExpenseAmount

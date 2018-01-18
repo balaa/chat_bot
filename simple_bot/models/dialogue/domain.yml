@@ -1,0 +1,107 @@
+action_factory: null
+action_names:
+- utter_initial_user_input
+- utter_greet
+- utter_goodbye
+- utter_youarewelcome
+- utter_choose_company
+- utter_choose_expense_type
+- utter_choose_payment_mode
+- utter_enter_expense_amount
+actions:
+- utter_initial_user_input
+- utter_greet
+- utter_goodbye
+- utter_youarewelcome
+- utter_choose_company
+- utter_choose_expense_type
+- utter_choose_payment_mode
+- utter_enter_expense_amount
+config:
+  store_entities_as_slots: true
+entities:
+- user_action
+- company_name
+- payment_mode
+- expense_type
+- expense_amount
+intents:
+- initial_user_input
+- confirm_operation
+- cancel_operation
+- affirm
+- thankyou
+- goodbye
+- greet
+- choose_company
+- choose_expense_type
+- choose_payment_mode
+- enter_expense_amount
+slots:
+  company_name:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  expense_amount:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  expense_type:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  initial:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  payment_mode:
+    initial_value: null
+    type: rasa_core.slots.ListSlot
+  user_action:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_helpmore:
+  - text: any thing else pal
+  utter_choose_company:
+  - buttons:
+    - payload: Ofs
+      title: Ofs
+    - payload: Ofs Tech
+      title: Ofs Tech
+    text: Choose your company
+  utter_choose_expense_type:
+  - buttons:
+    - payload: Meals and Entertainment
+      title: Meals and Entertainment
+    - payload: Travels
+      title: Travels
+    - payload: Food
+      title: Food
+    - payload: Fuel
+      title: Fuel
+    text: Please choose the expense type!
+  utter_choose_payment_mode:
+  - buttons:
+    - payload: Credit Card
+      title: Credit Card
+    - payload: Debit Card
+      title: Debit Card
+    - payload: Cash
+      title: Cash
+    text: Please choose the expense mode!
+  utter_default:
+  - text: default message
+  utter_enter_expense_amount:
+  - text: Please enter the expense amount
+  utter_goodbye:
+  - text: goodbye :(
+  - text: Bye-bye
+  utter_greet:
+  - text: hey there!
+  utter_initial_user_input:
+  - buttons:
+    - payload: confirm
+      title: Confirm
+    - payload: cancel
+      title: Cancel
+    text: Do you want to claim your expense?!
+  utter_youarewelcome:
+  - text: you're very welcome
+topics: []
